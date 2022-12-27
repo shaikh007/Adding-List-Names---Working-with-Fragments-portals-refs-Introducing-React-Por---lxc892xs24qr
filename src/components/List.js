@@ -2,7 +2,10 @@ import React from "react";
 import ListItems from "./ListItems";
 //code here
 const List = ({ listx }) => {
-  return <ListItems valuex={i} />;
+  return;
+  <React.Fragment>
+    <ListItems valuex={i} />
+  </React.Fragment>;
 };
 
 export default List;
